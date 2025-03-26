@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Mugiwara</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-color: black;
+            color: #fff;
+            background-image: url('fondo_matematico.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px;
+        }
+        .content {
+            width: 70%;
+            background: black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+        }
+        .logo {
+            width: 200px;
+            margin: 20px auto;
+            animation: spin 5s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        h1 {
+            color: #ffcc00;
+            text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.8);
+            font-size: 3em;
+        }
+        .informe {
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .fecha {
+            position: relative;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: red;
+        }
+        .fecha span {
+            color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\Users\HP\Downloads\Mugiwara-Bandera.webp" alt="Logo Mugiwara" class="logo">
+    <h1>Los Mugiwara</h1><div class="header">
+    <p class="integrantes">
+        <span>Nombres de los integrantes:</span> Francisco Figuereo, Yulianny Navarro y Génesis Abigail.
+
+
+    <div class="container">
+        <div class="content">
+            <h2>Informe de mi chichigua Vectorial</h2>
+            <p class="informe">
+                  La primera chichigua se basó en un diseño típico de los mugiwaras del anime One Piece, esta chichigua estaba hecha de dos tendones por el centro juntos y dos tendones cruzados con una funda negra que en la parte exterior tenía puesto un sombrero de paja y tres iniciales que son la de los integrantes del grupo.
+                Esta chichigua no pudo volar muy alto ya que no tenía un balance correcto con la cola y los tendones así que decidimos descartarla y fabricar otra desde cero. Esta nueva chichigua estaba hecha de tres lados con un pendón por el centro y dos tendones cruzados con una funda azul y sin mucho diseño. 
+                Esta chichigua al probarla ya que tenía menor peso en la parte superior pudo volar mucho más alto y encontrar un balance en el aire.  
+                <br><br>
+                También podemos aplicar esta lección en la vida, preparándonos antes de hacer algo importante, siendo pacientes cuando algo no sale bien y aprendiendo de los errores para mejorar la próxima vez.
+            </p>
+            <h2>Foto de mi chichigua Vectorial</h2>
+            <img src="C:\Users\HP\OneDrive\Imágenes\Escritorio\Imagen de WhatsApp 2025-03-25 a las 06.59.48_610e1a04.jpg" alt="Chichigua Vectorial" width="300">
+            <h2>Video de mi chichigua Vectorial</h2>
+            <video width="320" height="240" controls>
+                <source src="C:\Users\HP\Downloads\VIDEOO DE MATEMATICA .mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+    </div>
+    <div class="fecha"><span>Fecha:</span> 25/3/2025</div>
+</body>
+</html>
+
